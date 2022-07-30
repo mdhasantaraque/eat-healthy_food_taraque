@@ -1,0 +1,99 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    padding: 100px;
+}
+.mama{ 
+    width: 50%;  
+}
+.mama img{
+    width:90%;
+    margin-left: -80px;
+}
+.skip{
+    color: orange;
+}
+.diet{
+    color: rgb(88, 87, 87);
+}
+.title{
+    font-size: 35px;
+    margin-top: 100px;
+}
+.order-food{
+    text-decoration: none;
+    background: linear-gradient(to left, tomato, orange
+    );
+    color: white;
+    margin-top: 100px;
+    padding: 20px 40px;
+    border-radius: 35px;
+ }
+#Imagine{
+    margin-bottom: 80px;
+    color: grey;
+}
+.heading{
+    color: grey;
+    font-size: 30px;
+}
+.about-me{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#lady img{
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 200px;
+
+}
+.para1{
+    margin: 150px 150px 100px 0;
+}
+.recipies{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.food-images{
+    display: flex;
+}
+.food1{
+    width:40%;
+    border: 15px solid white;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 15px 15px 30px grey;
+}
+.food1 img{
+    width:550px;
+    height: 300px;
+}
+.social{
+    display: flex;
+    border: 15px solid white;
+    border-radius: 30px;
+    margin: 20px 20px;
+    box-shadow: 15px 15px 30px grey;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+#sub-social{
+    font-size: 40px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+.eat{ 
+    color: white;
+}
